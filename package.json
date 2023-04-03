@@ -1,0 +1,30 @@
+{
+  "name": "snax-dark-theme",
+  "displayName": "SnAx DaRk ThEme",
+  "publisher": "AmanKohare5",
+  "icon": "log.png",
+  "repository": "https://github.com/Amankohare0514/Snax-Dark-theme",
+  "keywords": [
+    "theme",
+    "darktheme",
+    "snax-theme",
+    "themes"
+  ],
+  "description": "Dark theme which surpasses dark themes like ayu , dracula , night owl , etc... ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "snax-dark theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snax-dark theme-color-theme.json"
+      }
+    ]
+  }
+}
